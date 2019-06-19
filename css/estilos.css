@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.logo{
+   display: flex;
+   padding: 10px;
+}
+    .logo a img{
+        padding: 20px 0px;  
+    }
+.menu{
+    display: fleX;
+    justify-content: space-between;
+}
+    .menu a{
+        text-decoration: none;
+        padding: 10px;
+        color: #000;  
+    }
+.photo-article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 10px;
+}
+    .font-seccion{
+        color: #c2c3c4;
+        font-family: 'Ubuntu', sans-serif;
+        margin-bottom: 30px;
+    }
+    .margen-b{
+        margin-bottom: 30px;
+    }
+    .justificado{
+        text-align: justify;
+    }
+.ls{
+    display: flex;
+    flex-wrap: wrap;
+}
+.art{
+    padding: 10px;
+}
+.singup{
+    background-color: #f1f1f1;
+    margin-bottom: 30px;
+    
+}
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .newsletter h2{
+        margin:50px 0px;
+    }
+    .newsletter h5{
+        font-weight: normal;
+        border-bottom: 1px solid black;
+        margin: 50px 0px;
+        
+
+    }
+
+    .field-icon { 
+        font-family: 'Muli', FontAwesome, sans-serif;
+        padding: 10px; 
+        background-color: transparent;
+        border:0px;
+        border-bottom: 1.5px solid black;
+        width: 310px;
+
+    }
+    .load{
+        display: flex;
+    }
+    .load a{
+        font-size: 20px;
+        border: 1px solid #b8b8b8;
+        padding: 20px 30px;
+        text-decoration: none;
+        
+    }
+.footer{
+    background-color: #f1f1f1;
+    
+    
+}
+    .term-foll{
+        display: flex;
+        margin: 30px 0px;;
+    }
+    .terminos{
+        display: flex;
+        
+    }
+    .terminos a{
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+    }
+    .follow {
+        display: flex;
+    }
+    .follow a{
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+    }
